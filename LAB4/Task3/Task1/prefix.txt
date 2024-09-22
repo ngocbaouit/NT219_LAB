@@ -1,0 +1,9 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    cout << "LAB4: MD5 Collision Attack" << endl;
+    cout << "Vo Ngoc Bao ATTT2022.1 - 22520127";
+    return 0;
+}

@@ -1,0 +1,25 @@
+md5
+
+k = vongocbao2252012
+
+m = xong task nay la het mon roi
+
+signature
+h1 = md5
+h1(vongocbao2252012xong task nay la het mon roi)
+
+s1 = 96a2a458a726172c418f50455e422abe
+
+padding = xong het task roi
+
+./hashpump -s '96a2a458a726172c418f50455e422abe' -d 'ngay mai la het mon nay roi' -a 'xong het task roi' -k 16
+
+sha1
+
+./hashpump -s '9cdd380a42ad92fe0f908c94d5cf5f899941d5ce' -d 'xong task nay la het mon roi' -a 'xong het task roi' -k 16
+
+sha256
+./hashpump -s '7edc97bf8f589b16d25df9c232872a07c956cd3a59f1eef6b41195f7971128d2' -d 'xong task nay la het mon roi' -a 'xong het task roi' -k 16
+
+sha512
+./hashpump -s '9835dc5051a97566baf4e437df39d57633123ce116f9c9c37e1b7636906e4f0d3736cda838035bef3931a2b72171ab2b513f752904802a37df937d7718c3e723' -d 'xong task nay la het mon roi' -a 'xong het task roi' -k 16
